@@ -25,7 +25,7 @@ describe "Static pages" do
 			visit '/static_pages/home'
 			# expect(page).to have_title("Ruby on Rails Tutorial Sample App | Home")
 			# You can just match a substring too.
-			expect(page).to have_title("| Home")
+			expect(page).to have_title("This is a test | Home")
 		end
 	end
 
@@ -40,7 +40,7 @@ describe "Static pages" do
 			visit '/static_pages/help'
 			# expect(page).to have_title("Ruby on Rails Tutorial Sample App | Home")
 			# You can just match a substring too.
-			expect(page).to have_title("| Help")
+			expect(page).to have_title("This is a test | Help")
 		end
 	end
 
@@ -55,7 +55,7 @@ describe "Static pages" do
 			visit '/static_pages/about'
 			# expect(page).to have_title("Ruby on Rails Tutorial Sample App | Home")
 			# You can just match a substring too.
-			expect(page).to have_title("| About")
+			expect(page).to have_title("This is a test | About")
 		end
 	end
 
@@ -68,7 +68,7 @@ describe "Static pages" do
 
 		it "should have the right title" do
 			visit '/static_pages/contact'
-			expect(page).to have_title('| Contact')
+			expect(page).to have_title('This is a test | Contact')
 		end
 	end
 end
