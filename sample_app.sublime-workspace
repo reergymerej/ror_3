@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sta",
+				"static_pages"
+			],
+			[
 				"mes",
 				"messageTemplate"
 			],
@@ -510,10 +514,6 @@
 			[
 				"de",
 				"deleteTask"
-			],
-			[
-				"rec",
-				"toggleRecordTask"
 			]
 		]
 	},
@@ -523,7 +523,31 @@
 			"file": "/home/grizzle/Documents/reference/RoR Notes.txt",
 			"settings":
 			{
-				"buffer_size": 686,
+				"buffer_size": 4924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 946,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.rb",
+			"settings":
+			{
+				"buffer_size": 1224,
 				"line_ending": "Unix"
 			}
 		}
@@ -531,9 +555,13 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 117.0,
+		"height": 54.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -565,10 +593,6 @@
 			[
 				"is pa",
 				"Package Control: List Packages"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"inde",
@@ -607,7 +631,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 404.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -629,10 +653,28 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/custom.scc.scss",
+		"/home/grizzle/rails_projects/sample_app/Gemfile",
+		"/home/grizzle/rails_projects/sample_app/test.rb",
+		"/home/grizzle/rails_projects/sample_app/example_user.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/grizzle/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/grizzle/rails_projects/sample_app/config/database.yml",
+		"/etc/postgresql/9.1/main/pg_hba.conf",
+		"/home/grizzle/Documents/reference/RoR Notes.txt",
+		"/home/grizzle/rails_projects/sample_app/.gitignore",
+		"/home/grizzle/rails_projects/sample_app/config/routes.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/help.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/home/grizzle/rails_projects/sample_app/spec/spec_helper.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/foo_bars_controller.rb",
 		"/home/grizzle/rails_projects/sample_app/README.rdoc",
 		"/home/grizzle/rails_projects/sample_app/config/initializers/secret_token.rb",
-		"/home/grizzle/rails_projects/sample_app/.gitignore",
-		"/home/grizzle/rails_projects/sample_app/Gemfile",
 		"/home/grizzle/rails_projects/demo_app/app/models/user.rb",
 		"/home/grizzle/rails_projects/demo_app/app/models/micropost.rb",
 		"/home/grizzle/rails_projects/demo_app/app/controllers/application_controller.rb",
@@ -738,25 +780,7 @@
 		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/home/HomeView.js",
 		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/done/DoneView.js",
 		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/taskCollectionTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/doneTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/doing/doingTaskTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/collections/todo/TodoCollection.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/todo/TodoTaskView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/todo/TodoListView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/lib/resteasy/RestEasy.php",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/todo/todoListCollectionTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/done/DoneTaskCollectionView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/doing/doingTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/doing/TaskView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/doing/todoTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/doing/todoTaskTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/models/doing/TaskModel.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/router.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/lib/resteasy/objects/tasks.php",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/index.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/taskReviewerTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/done/TaskAdderView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/done/TaskReviewerView.js"
+		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/doneTemplate.html"
 	],
 	"find":
 	{
@@ -786,6 +810,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"unicode",
+			"postgresq",
 			"responseCode",
 			"setResponseCode",
 			"}\n",
@@ -911,9 +937,7 @@
 			"selectedListId",
 			"currentList",
 			"fetchTasks",
-			"button",
-			"tasks",
-			"taskViewer"
+			"button"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1057,7 +1081,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1066,20 +1090,104 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 686,
+						"buffer_size": 4924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
+								4124,
+								4124
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2278.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								834,
+								834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/static_pages/home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/application.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1213,
+								1213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1137,8 +1245,184 @@
 		"selected_items":
 		[
 			[
+				"config/app",
+				"config/application.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"app/view/home.",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"app/view/layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"app/cont/sta",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"app/hel",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"spe/req/st",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/veiw/home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"app/helpers/application",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"app/views/layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
 				".git",
 				".gitignore"
+			],
+			[
+				"app/view/app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"spec/req/stat",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/view/lay/app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"app/view/stat/",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"ap/view/stat",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"ap/view/stat/",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"app/view/stat/cont",
+				"app/views/static_pages/contact.html.erb"
+			],
+			[
+				"app/contro/stat",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"config/rout",
+				"config/routes.rb"
+			],
+			[
+				"spe/st",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/views/stat/hel",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"app/views/stat/abou",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"app/view/layou/ap",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"app/view/stat/hel",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"app/view/stat/abou",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"app/view/stat/ab",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"app/views/stat/hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"spec/sta",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/views/lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"view/stati/abou",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"cont/stat",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"confi/rou",
+				"config/routes.rb"
+			],
+			[
+				"contro/sta",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"spe/req/stat",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"view/stat/he",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"spec/requ",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"view/stat/hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"spec/stat",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"spec/",
+				"spec/spec_helper.rb"
+			],
+			[
+				"app/views/static_pages/hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"config/rou",
+				"config/routes.rb"
+			],
+			[
+				"contr/foo",
+				"app/controllers/foo_bars_controller.rb"
+			],
+			[
+				"contro/fo",
+				"app/controllers/foo_bars_controller.rb"
 			],
 			[
 				"app/control/a",
@@ -1471,182 +1755,6 @@
 			[
 				"rese/obj/ta",
 				"lib/resteasy/objects/todotasks.php"
-			],
-			[
-				"lib/res/fi",
-				"lib/resteasy/Field.php"
-			],
-			[
-				"restea",
-				"lib/resteasy/RestEasy.php"
-			],
-			[
-				"rest/obj/todl",
-				"lib/resteasy/objects/todolists.php"
-			],
-			[
-				"todolistcollectiontemplate",
-				"templates/todo/todoListCollectionTemplate.html"
-			],
-			[
-				"todolistco",
-				"js/collections/todo/TodoListCollection.js"
-			],
-			[
-				"model/todo",
-				"js/models/todo/TodoListModel.js"
-			],
-			[
-				"rest/ob",
-				"lib/resteasy/objects/todolists.php"
-			],
-			[
-				"resea/obj/tol",
-				"lib/resteasy/objects/todolists.php"
-			],
-			[
-				"todotem",
-				"templates/todo/todoTemplate.html"
-			],
-			[
-				"todo",
-				"todo.txt"
-			],
-			[
-				"rou",
-				"js/router.js"
-			],
-			[
-				"homev",
-				"js/views/home/HomeView.js"
-			],
-			[
-				"hint",
-				"js/collections/hints.js"
-			],
-			[
-				"todocollection",
-				"js/collections/todo/TodoCollection.js"
-			],
-			[
-				"rest/ob/task",
-				"lib/resteasy/objects/tasks.php"
-			],
-			[
-				"view/doneview",
-				"js/views/done/DoneView.js"
-			],
-			[
-				"doingview",
-				"js/views/doing/DoingView.js"
-			],
-			[
-				"view/home",
-				"js/views/home/HomeView.js"
-			],
-			[
-				"doing/taskt",
-				"templates/doing/doingTaskTemplate.html"
-			],
-			[
-				"obje/tas",
-				"lib/resteasy/objects/tasks.php"
-			],
-			[
-				"model/doin",
-				"js/models/doing/TaskModel.js"
-			],
-			[
-				"colle/hin",
-				"js/collections/hints.js"
-			],
-			[
-				"templ/done/",
-				"templates/done/taskCollectionTemplate.html"
-			],
-			[
-				"templ/don",
-				"templates/done/doneTemplate.html"
-			],
-			[
-				"donev",
-				"js/views/done/DoneView.js"
-			],
-			[
-				"view/h",
-				"js/views/home/HomeView.js"
-			],
-			[
-				"",
-				".gitignore"
-			],
-			[
-				"reseobje/todota",
-				"lib/resteasy/objects/todotasks.php"
-			],
-			[
-				"reseobj/task",
-				"lib/resteasy/objects/tasks.php"
-			],
-			[
-				"reste/api",
-				"lib/resteasy/api.php"
-			],
-			[
-				"resea",
-				"lib/resteasy/RestEasy.php"
-			],
-			[
-				"temp/homet",
-				"templates/home/homeTemplate.html"
-			],
-			[
-				"template/ho",
-				"templates/home/homeTemplate.html"
-			],
-			[
-				"style.sc",
-				"css/style.scss"
-			],
-			[
-				"template/done",
-				"templates/done/doneTemplate.html"
-			],
-			[
-				"doneview",
-				"js/views/done/DoneView.js"
-			],
-			[
-				"view/todoli",
-				"js/views/todo/TodoListView.js"
-			],
-			[
-				"templ/doin",
-				"templates/doing/doingTaskTemplate.html"
-			],
-			[
-				"templ/doint",
-				"templates/doing/doingTaskTemplate.html"
-			],
-			[
-				"homeview",
-				"js/views/home/HomeView.js"
-			],
-			[
-				"view/doin",
-				"js/views/doing/DoingView.js"
-			],
-			[
-				"sql",
-				"lib/resteasy/sql-test.php"
-			],
-			[
-				"obje",
-				"lib/resteasy/objects/todotasks.php"
-			],
-			[
-				"obje/toto",
-				"lib/resteasy/objects/todotasks.php"
 			]
 		],
 		"width": 0.0
@@ -1677,7 +1785,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 268.0,
 	"status_bar_visible": true,
 	"template_settings":
