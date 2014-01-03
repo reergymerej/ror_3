@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"si",
+				"signup"
+			],
+			[
+				"con",
+				"contact_path"
+			],
+			[
 				"sta",
 				"static_pages"
 			],
@@ -74,10 +82,6 @@
 			[
 				"remoT",
 				"removedTaskOrder"
-			],
-			[
-				"si",
-				"siblings"
 			],
 			[
 				"sibl",
@@ -452,10 +456,6 @@
 				"mysql_field_type"
 			],
 			[
-				"con",
-				"controlButtonWidth"
-			],
-			[
 				"backg",
 				"background-position"
 			],
@@ -523,31 +523,26 @@
 			"file": "/home/grizzle/Documents/reference/RoR Notes.txt",
 			"settings":
 			{
-				"buffer_size": 4924,
+				"buffer_size": 6327,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 946,
+				"buffer_size": 36,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/static_pages/home.html.erb",
+			"contents": "require 'spec_helper'\n\ndescribe User do\n\n\n\n  pending \"add some examples to (or delete) #{__FILE__}\"\nend\n",
+			"file": "spec/models/user_spec.rb",
+			"file_size": 101,
+			"file_write_time": 130329861096136952,
 			"settings":
 			{
-				"buffer_size": 369,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.rb",
-			"settings":
-			{
-				"buffer_size": 1224,
+				"buffer_size": 104,
 				"line_ending": "Unix"
 			}
 		}
@@ -653,26 +648,55 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/grizzle/rails_projects/sample_app/spec/helpers/application_helper_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/home/grizzle/rails_projects/sample_app/app/models/.keep",
+		"/home/grizzle/rails_projects/sample_app/app/models/user.rb",
+		"/home/grizzle/rails_projects/sample_app/db/development.sqlite3",
+		"/home/grizzle/rails_projects/sample_app/config/database.yml",
+		"/home/grizzle/rails_projects/sample_app/spec/support/utilities.rb",
+		"/home/grizzle/rails_projects/sample_app/s/vendor/rails/railties/lib/rails_generator/generators/applications/app/app_generator.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/application_controller.rb",
+		"/home/grizzle/rails_projects/sample_app/s/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/functional_test.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/foo_bars_controller.rb",
+		"/home/grizzle/rails_projects/sample_app/config/application.rb",
+		"/home/grizzle/rails_projects/sample_app/spec/spec_helper.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/grizzle/rails_projects/sample_app/config.ru",
+		"/home/grizzle/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/home/grizzle/rails_projects/sample_app/config/routes.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
+		"/home/grizzle/rails_projects/sample_app/spec/helpers/foo_bars_helper_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/s/vendor/rails/railties/lib/source_annotation_extractor.rb",
+		"/home/grizzle/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/layouts/_shim.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/help.html.erb",
+		"/home/grizzle/rails_projects/sample_app/s/vendor/rails/vendor_gem_source_index.rb",
+		"/home/grizzle/rails_projects/sample_app/server/config/initializers/new_rails_defaults.rb",
+		"/home/grizzle/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/home/grizzle/rails_projects/sample_app/spec/views/foo_bars/quux.html.erb_spec.rb",
+		"/home/grizzle/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/grizzle/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/grizzle/rails_projects/sample_app/app/assets/javascripts/application.js",
+		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/application.css",
+		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/static_pages.css.scss",
+		"/home/grizzle/rails_projects/sample_app/app/assets/javascripts/static_pages.js.coffee",
+		"/home/grizzle/rails_projects/sample_app/app/assets/images/.keep",
+		"/home/grizzle/rails_projects/sample_app/tmp/cache/assets/development/sprockets/edbf63d87f211c17de329b8a471a7caf",
+		"/home/grizzle/rails_projects/sample_app/lib/assets/.keep",
 		"/home/grizzle/rails_projects/sample_app/app/assets/stylesheets/custom.scc.scss",
 		"/home/grizzle/rails_projects/sample_app/Gemfile",
 		"/home/grizzle/rails_projects/sample_app/test.rb",
 		"/home/grizzle/rails_projects/sample_app/example_user.rb",
-		"/home/grizzle/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
-		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/home.html.erb",
-		"/home/grizzle/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
-		"/home/grizzle/rails_projects/sample_app/app/helpers/application_helper.rb",
-		"/home/grizzle/rails_projects/sample_app/app/views/layouts/application.html.erb",
-		"/home/grizzle/rails_projects/sample_app/config/database.yml",
 		"/etc/postgresql/9.1/main/pg_hba.conf",
 		"/home/grizzle/Documents/reference/RoR Notes.txt",
 		"/home/grizzle/rails_projects/sample_app/.gitignore",
-		"/home/grizzle/rails_projects/sample_app/config/routes.rb",
-		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
-		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/help.html.erb",
-		"/home/grizzle/rails_projects/sample_app/app/views/static_pages/about.html.erb",
-		"/home/grizzle/rails_projects/sample_app/spec/spec_helper.rb",
-		"/home/grizzle/rails_projects/sample_app/app/controllers/foo_bars_controller.rb",
 		"/home/grizzle/rails_projects/sample_app/README.rdoc",
 		"/home/grizzle/rails_projects/sample_app/config/initializers/secret_token.rb",
 		"/home/grizzle/rails_projects/demo_app/app/models/user.rb",
@@ -751,36 +775,7 @@
 		"/var/www/reergymerej/dev/taskManager/js/views/todo/TodoListView.js",
 		"/var/www/reergymerej/dev/taskManager/js/collections/todo/TodoListCollection.js",
 		"/var/www/reergymerej/dev/taskManager/js/collections/todo/TodoCollection.js",
-		"/var/www/reergymerej/dev/taskManager/js/views/done/DoneView.js",
-		"/var/www/reergymerej/dev/taskManager/js/collections/hints.js",
-		"/var/www/reergymerej/dev/taskManager/test.php",
-		"/var/www/reergymerej/dev/taskManager/js/models/doing/TaskModel.js",
-		"/home/grizzle/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/var/www/reergymerej/dev/taskManager/templates/done/doneTemplate.html",
-		"/var/www/reergymerej/dev/taskManager/templates/done/taskCollectionTemplate.html",
-		"/var/www/reergymerej/dev/taskManager/js/models/HintModel.js",
-		"/home/grizzle/.config/sublime-text-3/Packages/JSHint Gutter/JSHint.sublime-settings",
-		"/var/www/reergymerej/dev/taskManager/templates/home/homeTemplate.html",
-		"/var/www/reergymerej/dev/taskManager/css/style.scss",
-		"/var/www/reergymerej/dev/taskManager/js/libs/backbone/backbone-min.js",
-		"/home/grizzle/.gvfs/SFTP for wordtoth on wordtotheblurd.com/home/wordtoth/access-logs/dev.wordtotheblurd.com",
-		"/home/grizzle/.gvfs/SFTP for wordtoth on wordtotheblurd.com/home/wordtoth/access-logs/ftp.wordtotheblurd.com-ftp_log",
-		"/var/www/reergymerej/dev/taskManager/lib/resteasy/sql-test.php",
-		"/var/www/reergymerej/dev/taskManager/lib/resteasy/.htaccess",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/.disk_usage",
-		"/C/Users/blurd/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/reergymerej.com/dev/clock/index.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/doing/DoingView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/todo/TodoView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/home/homeTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/css/style.scss",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/todo/todoTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/models/todo/TodoTaskModel.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/todo/todoTaskTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/home/HomeView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/js/views/done/DoneView.js",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/taskCollectionTemplate.html",
-		"/C/xampp/htdocs/reergymerej.com/dev/taskManager/templates/done/doneTemplate.html"
+		"/var/www/reergymerej/dev/taskManager/js/views/done/DoneView.js"
 	],
 	"find":
 	{
@@ -810,6 +805,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'/static_pages/contact'",
+			"'/static_pages/help'",
+			"'/static_pages/home'",
+			"'/static_pages/about'",
+			"grayLight",
+			"\\$lightGray",
+			"$lightGray",
+			"\\$lightGray",
+			"$lightGray",
+			"#999;",
+			"h2",
+			"#logo",
 			"unicode",
 			"postgresq",
 			"responseCode",
@@ -925,19 +932,7 @@
 			"div",
 			"\n			",
 			"data",
-			"var ",
-			"msPerDay",
-			"beforeQuery",
-			"getSQL",
-			"setActiveList",
-			"selectedListId",
-			"setActiveList",
-			"me",
-			"setActiveList",
-			"selectedListId",
-			"currentList",
-			"fetchTasks",
-			"button"
+			"var "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -945,6 +940,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"$grayLight",
+			"$lightGray",
 			"set",
 			"get",
 			"LoginView",
@@ -1075,13 +1072,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1090,15 +1087,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4924,
+						"buffer_size": 6327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4124,
-								4124
+								6100,
+								6100
 							]
 						],
 						"settings":
@@ -1107,92 +1104,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2278.0,
+						"translation.y": 3033.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "app/models/user.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 946,
+						"buffer_size": 36,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/static_pages/home.html.erb",
+					"file": "spec/models/user_spec.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 369,
+						"buffer_size": 104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								41,
+								41
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config/application.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1213,
-								1213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1233,6 +1204,10 @@
 	{
 		"height": 87.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"project": "sample_app.sublime-project",
 	"replace":
 	{
@@ -1245,6 +1220,122 @@
 		"selected_items":
 		[
 			[
+				"spec/mode/user",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"spec/model/u",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"app/models/user",
+				"app/models/user.rb"
+			],
+			[
+				"devel",
+				"db/development.sqlite3"
+			],
+			[
+				"app/help/ap",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"spec/applica_he",
+				"spec/helpers/application_helper_spec.rb"
+			],
+			[
+				"spec/sup/u",
+				"spec/support/utilities.rb"
+			],
+			[
+				"applicationhelp",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"spec/",
+				"spec/helpers/application_helper_spec.rb"
+			],
+			[
+				"spec/req/s",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"spec/req/stat",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/view/stat/cont",
+				"app/views/static_pages/contact.html.erb"
+			],
+			[
+				"spec/req/stati",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"app/view/stat/hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"confi/rou",
+				"config/routes.rb"
+			],
+			[
+				"app/view/use",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"confi/rout",
+				"config/routes.rb"
+			],
+			[
+				"app/views/users",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"app/con/user",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"app/view/layout_he",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"app/layou/",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"spec/req/",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"config/rout",
+				"config/routes.rb"
+			],
+			[
+				"app/view/layou_foo",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"app/views/layou/foo",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"app/assets/styleshe/",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"app/asset/style/app",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"app/ass/styles/cus",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"app/view/layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
 				"config/app",
 				"config/application.rb"
 			],
@@ -1255,10 +1346,6 @@
 			[
 				"app/view/home.",
 				"app/views/static_pages/home.html.erb"
-			],
-			[
-				"app/view/layou",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"app/cont/sta",
@@ -1297,10 +1384,6 @@
 				"app/views/layouts/application.html.erb"
 			],
 			[
-				"spec/req/stat",
-				"spec/requests/static_pages_spec.rb"
-			],
-			[
 				"app/view/lay/app",
 				"app/views/layouts/application.html.erb"
 			],
@@ -1317,16 +1400,8 @@
 				"app/views/static_pages/about.html.erb"
 			],
 			[
-				"app/view/stat/cont",
-				"app/views/static_pages/contact.html.erb"
-			],
-			[
 				"app/contro/stat",
 				"app/controllers/static_pages_controller.rb"
-			],
-			[
-				"config/rout",
-				"config/routes.rb"
 			],
 			[
 				"spe/st",
@@ -1377,10 +1452,6 @@
 				"app/controllers/static_pages_controller.rb"
 			],
 			[
-				"confi/rou",
-				"config/routes.rb"
-			],
-			[
 				"contro/sta",
 				"app/controllers/static_pages_controller.rb"
 			],
@@ -1403,10 +1474,6 @@
 			[
 				"spec/stat",
 				"spec/requests/static_pages_spec.rb"
-			],
-			[
-				"spec/",
-				"spec/spec_helper.rb"
 			],
 			[
 				"app/views/static_pages/hom",
@@ -1663,98 +1730,6 @@
 			[
 				"view/todo/",
 				"js/views/todo/ListSelector.js"
-			],
-			[
-				"restea/obj/",
-				"lib/resteasy/objects/tasks.php"
-			],
-			[
-				"view/doing/",
-				"js/views/doing/DoingView.js"
-			],
-			[
-				"temp/doing/",
-				"templates/doing/doingTemplate.html"
-			],
-			[
-				"view/todoma",
-				"js/views/todo/TodoManagementView.js"
-			],
-			[
-				"view/todo/ma",
-				"js/views/todo/TodoManagementView.js"
-			],
-			[
-				"templ/todo/",
-				"templates/todo/todoTemplate.html"
-			],
-			[
-				"view/todo/se",
-				"js/views/todo/ListSelector.js"
-			],
-			[
-				"todomanv",
-				"js/views/todo/TodoManagementView.js"
-			],
-			[
-				"collect/todo",
-				"js/collections/todo/TodoList.js"
-			],
-			[
-				"templ/todoma",
-				"templates/todo/todoManagement.html"
-			],
-			[
-				"todoma",
-				"js/views/todo/TodoManagementView.js"
-			],
-			[
-				"listse",
-				"js/views/todo/ListSelector.js"
-			],
-			[
-				"temp/todotem",
-				"templates/todo/todoTemplate.html"
-			],
-			[
-				"view/lists",
-				"js/views/todo/ListSelector.js"
-			],
-			[
-				"todolistview",
-				"js/views/todo/TodoListView.js"
-			],
-			[
-				"view/todov",
-				"js/views/todo/TodoView.js"
-			],
-			[
-				"view/todolis",
-				"js/views/todo/TodoListView.js"
-			],
-			[
-				"todo/coll",
-				"js/collections/todo/TodoCollection.js"
-			],
-			[
-				"rese",
-				"lib/resteasy/RestEasy.php"
-			],
-			[
-				"view/doingv",
-				"js/views/doing/DoingView.js"
-			],
-			[
-				"res/field",
-				"lib/resteasy/Field.php"
-			],
-			[
-				"rest/ob/",
-				"lib/resteasy/objects/tasks.php"
-			],
-			[
-				"rese/obj/ta",
-				"lib/resteasy/objects/todotasks.php"
 			]
 		],
 		"width": 0.0
