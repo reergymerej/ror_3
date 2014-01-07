@@ -10,9 +10,15 @@ SampleApp::Application.routes.draw do
   # DELETE  /users/1  destroy user_path(user) delete user
   resources :users
 
+  resources :sessions, only: [:new, :create, :destroy]
+
   # get "static_pages/home"
   root 'static_pages#home'
+
   match '/signup', to: 'users#new', via: 'get'
+
+  match '/signin', to: 'sessions#new', via: 'get'
+  match '/signout', to: 'sessions#destroy', via: 'delete'
 
   # get "static_pages/about"
   match '/about', to: 'static_pages#about', via: 'get'

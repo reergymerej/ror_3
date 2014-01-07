@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   def show
     #params[:id] == The id in the url.
     # find converts this to an int
+
     @user = User.find(params[:id])
   end
 
@@ -17,6 +18,7 @@ class UsersController < ApplicationController
 
     if @user.save
       # add to flash so it can be displayed on the view
+      sign_in @user
       flash[:success] = 'Welcome to the Sample App!'
       redirect_to @user
     else
